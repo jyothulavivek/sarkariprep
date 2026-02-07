@@ -197,7 +197,7 @@ async function fetchRealNews() {
   } catch (error) {
     console.error('❌ Error:', error.message);
     console.log('ℹ️  Using mock data...');
-    useMockData();
+    //useMockData();
   }
 }
 
