@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Calendar, Clock, RefreshCw, ExternalLink, Filter, Newspaper } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000';
+
+const API_URL = 'https://sarkariprep.onrender.com';
 
 export default function DailyNews() {
   const [news, setNews] = useState([]);
