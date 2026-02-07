@@ -242,7 +242,7 @@ function loadSavedData() {
   } catch (e) {
     console.error('Error loading saved data:', e);
   }
-  useMockData();
+  //useMockData();
 }
 
 // ==================== API ROUTES ====================
@@ -281,7 +281,7 @@ app.post('/api/refresh-news', async (req, res) => {
 
 // ==================== AUTO UPDATE ====================
 
-cron.schedule('0 */2 * * *', fetchRealNews);
+cron.schedule('*/5 * * * *', fetchRealNews);
 loadSavedData();
 setTimeout(fetchRealNews, 2000);
 
