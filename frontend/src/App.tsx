@@ -3153,7 +3153,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Contact Us</h4>
             <ul className="space-y-3 text-gray-400">
-              <li>vivekjyothula476@gmail.com</li>
+              <li>vivekjyothula2</li>
               <li>+91 9603858118</li>
               <li>Mon-Sat: 9AM - 6PM</li>
             </ul>
@@ -3295,7 +3295,6 @@ function App() {
       <Navigation />
       <HeroSection />
       <ExamCategoriesSection />
-      <CurrentAffairsSection />
       <StudyMaterialsSection />
       <MockTestsSection />
       <VideoLecturesSection />
